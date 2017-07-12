@@ -1,0 +1,12 @@
+<template name="contactus">
+  <h1 class="text-center"> Contact Us </h1>
+
+	{{#each c in contactInfo}}
+		<li>
+		{{c.name}} at <span style="color:blue; text-decoration:underline;">{{c.eml}} </span>
+		</li>
+    <br>
+	{{/each}}
+
+
+</template>
